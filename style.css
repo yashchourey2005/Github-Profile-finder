@@ -59,6 +59,7 @@ input{
 }
 
 .user-info{
+    width: 100%;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +85,7 @@ input{
 }
 
 .user-repo{
+    width: 100%;
     background-color: #284b63;
     padding-top: 5vh;
     padding-bottom: 5vh;
