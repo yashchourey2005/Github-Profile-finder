@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-color: ; */
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.search-btn{
+    width: 15vh;
+    height: 5vh;
+    font-size: 3vh;
+    border-radius: 4vh;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 80%;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.container{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(0, 0, 0, .5);
+    overflow-x: scroll;
+}
+
+input{
+    margin-top: 2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.info-container{
+    background-color: rgb(0, 0 , 0, .8);
+}
+
+.img-container{
+    text-align: center;
+}
+
+.img-styling{
+    margin-top: 10px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.user-info{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.profile-info{
+    /* display: flex; */
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 3vh;
+}
+
+.hide{
+    display: none;
+}
+
+.user-repo{
+    background-color: #284b63;
+    padding-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.repo-styling{
+    background-color: #eae2b7;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.danger{
+    background-color: red;
+}

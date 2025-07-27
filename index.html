@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github profile finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Github Profile Finder</h1>
+        <input type="text" class="search-input" placeholder="Enter username pls..."><br>
+        <button class="search-btn">search</button>
+
+    </div>
+
+    <div class="info-container hide">
+
+        <div class="img-container">
+            <img src="" id="profile-img">
+        </div>
+
+        <div class="user-info ">
+            <div class="profile-info">
+                <label>Name : </label>
+                <div id="name"></div>
+            </div>
+            <div class="profile-info">
+                <label>Username : </label>
+                <div id="username"></div>
+            </div>
+            <div class="profile-info">
+                <label>Location : </label>
+                <div id="location"></div>
+            </div>
+            <div class="profile-info">
+                <label>Bio : </label>
+                <div id="bio"></div>
+            </div>
+            <div class="profile-info">
+                <label>user id : </label>
+                <div id="userid"></div>
+            </div>
+            <div class="profile-info">
+                <label>Repo : </label>
+                <div id="repo"></div>
+            </div>
+            <div class="profile-info">
+                <label>Followers : </label>
+                <div id="followers"></div>
+            </div>
+        </div>
+
+        <div class="user-repo">
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
