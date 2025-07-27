@@ -33,6 +33,7 @@ input{
     padding-top: 20px;
     background-color: rgb(0, 0, 0, .5);
     overflow-y: scroll;
+    width: 100%;
 }
 
 input{
@@ -43,6 +44,7 @@ input{
 
 .info-container{
     background-color: rgb(0, 0 , 0, .8);
+    width: 100%;
 }
 
 .img-container{
