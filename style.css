@@ -57,7 +57,7 @@ input{
   max-width: 300px;
   max-height: 300px;
   border-radius: 50%;
-  margin-top: 2vw;
+  margin-top: 30px;
 }
 
 .user-info{
@@ -73,7 +73,7 @@ input{
 
 .profile-info{
     /* display: flex; */
-    width: 20vw;
+    width: 70vw;
     height: 8vh;
     background-color: white;
     margin: 5px;
